@@ -1,1 +1,46 @@
-/* Reseteo de CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: whitesmoke; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  display: flex;
+  /*
+    background: rgb(247,187,136);
+    background: -moz-radial-gradient(circle, rgba(247,187,136,1) 0%, rgba(240,182,106,0.9290091036414566) 30%, rgba(241,204,85,0.9458158263305322) 44%, rgba(241,213,153,0.8729866946778712) 100%);
+    background: -webkit-radial-gradient(circle, rgba(247,187,136,1) 0%, rgba(240,182,106,0.9290091036414566) 30%, rgba(241,204,85,0.9458158263305322) 44%, rgba(241,213,153,0.8729866946778712) 100%);
+    */
+  background: radial-gradient(circle, #f7bb88 0%, rgba(240, 182, 106, 0.929009) 30%, rgba(241, 204, 85, 0.945816) 44%, rgba(241, 213, 153, 0.872987) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7bb88",endColorstr="#f1d599",GradientType=1);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+  padding: 50px 15px;
+  border-radius: 15%; }
+  header ul {
+    display: flex;
+    font-size: 20px; }
+    header ul li a {
+      color: black; }
+
+footer p {
+  display: grid;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #f7bb88;
+  padding: 10px 10px;
+  margin-top: 30px; }

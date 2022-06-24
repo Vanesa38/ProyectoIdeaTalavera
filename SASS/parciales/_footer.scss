@@ -1,0 +1,7 @@
+@import "../mixin/mixin.scss";
+footer{
+    p{
+        @include footer
+    
+    }
+}

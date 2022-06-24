@@ -1,0 +1,31 @@
+@import "../mapas/mapas";
+
+header{
+    display:flex;
+    /*
+    background: rgb(247,187,136);
+    background: -moz-radial-gradient(circle, rgba(247,187,136,1) 0%, rgba(240,182,106,0.9290091036414566) 30%, rgba(241,204,85,0.9458158263305322) 44%, rgba(241,213,153,0.8729866946778712) 100%);
+    background: -webkit-radial-gradient(circle, rgba(247,187,136,1) 0%, rgba(240,182,106,0.9290091036414566) 30%, rgba(241,204,85,0.9458158263305322) 44%, rgba(241,213,153,0.8729866946778712) 100%);
+    */
+    background: radial-gradient(circle, map-get($header-color,"bg-h1") 0%, map-get($header_color,"bg-h2") 30%, map-get($header-color,"bg-h3") 44%, map-get($header-color,"bg-h4") 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f7bb88",endColorstr="#f1d599",GradientType=1);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:end;
+    align-items:center;
+    padding: 50px 15px;
+    border-radius: 15%;
+    ul{
+        
+        display: flex;
+        font-size: 20px;
+        li{
+
+            a{
+                color: black;
+            }
+        }
+    
+    }
+}
+
