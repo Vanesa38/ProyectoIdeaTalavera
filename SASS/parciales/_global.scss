@@ -10,7 +10,10 @@ body{
 }
 ul{
    list-style: none;
-}
+   display: flex;
+   font-size: 20px;
+   margin-left: 1 rem;
+   }
 a{
     text-decoration: none;
 }
