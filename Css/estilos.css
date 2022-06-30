@@ -41,8 +41,10 @@ header {
   header ul {
     display: flex;
     font-size: 20px; }
-    header ul li a {
-      color: black; }
+    header ul li {
+      margin-left: 1rem; }
+      header ul li a {
+        color: black; }
 
 footer p {
   display: grid;
@@ -119,3 +121,12 @@ main {
     column-gap: 1rem; }
     main .contenedor .contenedor-title {
       grid-area: auto; }
+
+footer {
+  display: grid;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  margin-top: 30px; }

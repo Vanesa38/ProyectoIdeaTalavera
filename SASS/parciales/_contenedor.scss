@@ -85,6 +85,15 @@ main{
         
     }
 }
+footer{
+        display: grid;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+        margin-top: 30px; 
+}
    
 
 
